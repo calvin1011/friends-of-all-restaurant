@@ -58,7 +58,7 @@ const AdminDashboard = ({ orders, updateOrderStatus, menuItems, setMenuItems }) 
 
     const saveMenuItem = (itemId) => {
         if (itemId === 'new') {
-            // Add new item
+            // Add new item to the menu
             const item = {
                 ...newItem,
                 id: Date.now(),
