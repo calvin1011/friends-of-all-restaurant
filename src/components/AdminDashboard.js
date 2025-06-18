@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import {
     Plus, Edit3, Trash2, Save, X, Upload, Camera,
-    Clock, CheckCircle, AlertCircle, Package,
-    DollarSign, FileText, Image, Settings
+    Package,
+    DollarSign, FileText, Settings
 } from 'lucide-react';
 import { ORDER_STATUSES, MENU_CATEGORIES } from '../utils/restaurantConstants';
 
